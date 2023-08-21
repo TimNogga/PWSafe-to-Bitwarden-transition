@@ -29,7 +29,7 @@ def transform_line_to_csv(line):
 
 
 input_file = "/Users/timnogga/Downloads/Pwsafedata.txt" #your txt file from pwsafe data which you can as stated in the readme
-output_file = "/Users/timnogga/Downloads/Pwsafedata_converted.csv"
+output_file = "/Users/timnogga/Downloads/Pwsafedata_converted.csv" #path for your output file(should be a csv file) which you then directly access from the bitwarden tool
 
 with open(input_file, 'r') as infile, open(output_file, 'w') as outfile:
     # Writing the header to the output file
